@@ -1,0 +1,44 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/joeheader_7aa8e5db-4470-44fb-b835-3873b681444c.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "background-1",
+        "menu_color_scheme": "",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "header"
+  ]
+}
